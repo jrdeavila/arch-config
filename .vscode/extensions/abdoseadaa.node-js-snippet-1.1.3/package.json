@@ -1,0 +1,32 @@
+{
+	"name": "node-js-snippet",
+	"displayName": "Nodejs Snippets",
+	"publisher": "abdoseadaa",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/abdoseadaa/node-js-snippets.git"
+	},
+	"icon": "icon.png",
+	"description": "Open-source Nodejs / Express / MongoDB / snippets generator",
+	"version": "1.1.3",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "38bf26f7-70d0-4dec-afb6-373aae7a21a3",
+		"publisherId": "08d48417-c016-40d7-a689-815694f0f9df",
+		"publisherDisplayName": "abdoseadaa",
+		"installedTimestamp": 1626597173441
+	}
+}

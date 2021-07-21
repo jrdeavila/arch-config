@@ -1,0 +1,300 @@
+{
+    // created on 20/30/2021 :)
+    // "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// },
+    "create express server": {
+		"prefix": "app",
+		"body": [
+			"const express = require('express')",
+            "const app = express()",
+            "require('dotenv').config()",
+            "const port = process.env.PORT || 5000",
+            "",
+            "// !important! ",
+            "// you need to install the following libraries |express|[dotenv > if required]",
+            "// or run this command >> npm i express dotenv ",
+            "",
+            "app.get('/' , (req , res)=>{", 
+            "",
+            "   res.send('hello from simple server :)')",
+            "",
+            "})",
+            "",
+            "",
+            "app.listen(port , ()=> console.log('> Server is up and running on port : ' + port))",
+  
+		],
+		"description": "make simple express server"
+	},
+    "create express server with view engine": {
+		"prefix": "app.mvc",
+		"body": [
+			"const express = require('express')",
+            "const app = express()",
+            "require('dotenv').config()",
+            "const port = process.env.PORT || 5000",
+            "",
+            "// !important! ",
+            "// you need to install the following libraries |express|ejs|[dotenv > if required]",
+            "// or run this command >> npm i express ejs dotenv ",
+            "",
+            "app.set('view engine', '${0:engine}')",
+            "",
+            "",
+            "",
+            "app.get('/' , (req , res)=>{",
+            "",
+            "   res.send('hello from simple server :)')",
+            "",
+            "})",
+            "",
+            "",
+            "app.listen(port , ()=> console.log('> Server is up and running on port : ' + port))"
+],
+		"description": "create express server with view engine"
+	},
+    "create app.get middleware": {
+		"prefix": "app.get",
+		"body": [
+            "app.get('/' , (req , res)=>{", 
+            "",
+                "   res.send('hello from simple server :)')",
+             "",
+             "})",
+		],
+		"description": "create app.get middleware"
+	},
+    "create app.post middleware": {
+		"prefix": "app.post",
+		"body": [
+            "app.post('/' , (req , res)=>{", 
+            "",
+                "   res.send('hello from simple server :)')",
+             "",
+             "})",
+		],
+		"description": "create app.get middleware"
+	},
+    "create formatted logger": {
+		"prefix": "app.log",
+		"body": [
+            "console.log('='.repeat(50))", 
+                "   console.log($1)",
+             "console.log('='.repeat(50))", 
+
+		],
+		"description": "console log anything in simple formatted way"
+	},
+    "create middleware function": {
+		"prefix": "app.mid",
+		"body": [
+            "module.exports = (req , res , next)=>{", 
+                "// middleware code here",
+                "$",
+            "}"
+      
+		],
+		"description": "create middleware function"
+	},
+    "create async middleware function": {
+		"prefix": "app.mid.as",
+		"body": [
+            "module.exports = async (req , res , next)=>{", 
+                "// async middleware code here",
+            "}"
+		],
+		"description": "create async middleware function"
+	},
+    "create async controller function": {
+		"prefix": "app.cont.as",
+		"body": [
+            "module.exports = async (req , res)=>{", 
+                "// async controller code here",
+            "}"
+		],
+		"description": "create async controller function"
+	},
+    "create controller function": {
+		"prefix": "app.cont",
+		"body": [
+            "module.exports = (req , res)=>{", 
+                "// controller code here",
+            "}"
+		],
+		"description": "create controller function"
+	},
+    "create liner arrow function": {
+		"prefix": "ar",
+		"body": [
+            "()=>{$1}"
+		],
+		"description": "create liner arrow function"
+	},
+    "create  arrow function with params": {
+		"prefix": "arp",
+		"body": [
+            "($1)=>{",
+                    "// code here",
+                    "$2",
+            "}"
+		],
+		"description": "create  arrow function with params"
+	},
+    "create async  arrow function with params": {
+		"prefix": "arp.as",
+		"body": [
+            "async ($1)=>{",
+                    "// code here",
+                    "$2",
+            "}"
+		],
+		"description": "create async  arrow function with params"
+	},
+    "create express router": {
+		"prefix": "app.router",
+		"body": [
+            "const router = require('express').Router()",
+            "",
+            "",
+            "router.get('/' , (req , res)=>{",
+            "    // router code here",
+            "})",
+            "",
+            "",
+            "router.get('/another-route' , (req , res)=>{",
+            "    // router code here",
+            "})",
+            "",
+            "module.exports  = router",
+		],
+		"description": "create express routers"
+	},
+    "create ok 200 server response": {
+		"prefix": "app.200",
+		"body": [
+            "res.status(200).send('ok :)')"
+        ],
+		"description": "create ok 200 server responses"
+	},
+    "create not ok 404 server response": {
+		"prefix": "app.404",
+		"body": [
+            "res.status(404).send('not ok :(')"
+        ],
+		"description": "create not ok 404 server responses"
+	},
+    "create forbidden 403  server response": {
+		"prefix": "app.403",
+		"body": [
+            "res.status(403).send('forbidden >_<')"
+        ],
+		"description": "create 403 forbidden server responses"
+	},
+    "create rendered response": {
+		"prefix": "app.render",
+		"body": [
+            "res.render('$1')"
+        ],
+		"description": "create rendered response"
+	},
+    "create rendered response with parameters": {
+		"prefix": "app.render.params",
+		"body": [
+            "res.render('$1' ,${2:params})"
+        ],
+		"description": "create rendered response with parameters"
+	},
+    "set server's view engine": {
+		"prefix": "app.view",
+		"body": [
+            "app.set('view engine', '${0:engine}')"
+        ],
+		"description": "set server view engine"
+	},
+    "create require statement": {
+		"prefix": "req",
+		"body": [
+			"const $1 = require('$1')",
+		],
+		"description": "create require statement"
+	},
+    "create require statement with different args": {
+		"prefix": "app.req",
+		"body": [
+			"const $1 = require('$2')",
+		],
+		"description": "create require statement with different args"
+	},
+    "serve express static files": {
+		"prefix": "app.static",
+		"body": [
+			"app.use(express.static('public'));",
+		],
+		"description": "serve express static files"
+	},
+    "parse request body": {
+		"prefix": "app.parse",
+		"body": [
+			"app.use(express.urlencoded({ extended: true }));",
+            "app.use(express.json());",
+		],
+		"description": "parse request body"
+	},
+    "connect to to mongoDB": {
+		"prefix": "app.connect",
+		"body": [
+			"// required libs : mongoose | colors",
+            "// run the following command",
+            "// npm i mongoose colors",
+            "",
+            "const colors = require('colors');",
+            "const mongoose = require('mongoose')",
+            "mongoose.connect(process.env.URI , { useNewUrlParser : true, useUnifiedTopology : true})",
+            ".then((res)=>console.log('> Connected...'.bgCyan))",
+            ".catch(err=>console.log(`> Error while connecting to mongoDB : ${err.message}`.underline.red ))",
+
+
+		],
+		"description": "connecto to mongoDB"
+	},
+    "create mongoDB model": {
+		"prefix": "app.model",
+		"body": [
+			"const mongoose = require('mongoose')    ",
+
+           "const ${1:Schema Name} = mongoose.Schema({",
+           "    name : {",
+           "        type : String,",
+           "        default : 'default txt',",
+           "    },",
+           "})",
+           "module.exports =  mongoose.model( '${2:model name}' , ${1:Schema Name})",
+
+		],
+		"description": "create mongoDB model"
+	},
+    "create new mongodb document": {
+		"prefix": "app.doc",
+		"body": [
+            "// you need to require Model first",
+            "// e.g >> const Model = require('./models/Model')",
+			"try { ",
+            "    const ${1:doc} = new ${2:Model}({",
+                    "     // document data as an object here",
+                "}) ",
+            "    const result = await ${1:doc}.save() ",
+            "    console.log(result) ",
+            "  } catch (error) { ",
+            "    console.log(error.message) ",
+            "  } ",
+		],
+		"description": "create new mongodb document"
+	},
+
+}
