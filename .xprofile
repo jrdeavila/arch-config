@@ -2,14 +2,7 @@
 export XDG_RUNTIME_DIR="/run/user/$UID"
 export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
 
-# Screens
-hdmi=`xrandr | grep ' connected' | grep 'HDMI' | awk '{print $1}'`
-
-if [ "$hdmi" = "HDMI-A-0" ]; then
-  xrandr --output HDMI-A-0 --mode 1440x900 --pos 1366x0 --rotate normal --output eDP --mode 1366x768 --pos 0x66 --rotate normal --output DisplayPort-0 --off &
-else
-  xrandr --output HDMI-A-0 --off --output eDP --mode 1366x768 --pos 0x0 --rotate normal --output DisplayPort-0 --off &
-fi
+sh $HOME/.monitor-autodetect.sh &
 # Nitrogen
 nitrogen --restore &
 # Composer

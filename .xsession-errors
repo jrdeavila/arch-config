@@ -1,259 +1,46 @@
+[ 22/07/21 17:38:21.956 session_init FATAL ERROR ] Another composite manager is already running
 
-(nitrogen:3819): Gtk-WARNING **: 19:37:29.269: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:653): Gtk-WARNING **: 17:38:21.988: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:3819): Gtk-WARNING **: 19:37:29.275: Unable to locate theme engine in module_path: "murrine",
+(nitrogen:653): Gtk-WARNING **: 17:38:21.994: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:3819): Gtk-WARNING **: 19:37:29.276: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:653): Gtk-WARNING **: 17:38:21.995: Unable to locate theme engine in module_path: "murrine",
 
-(udiskie:3822): Gtk-WARNING **: 19:37:29.453: Unknown key ; gtk-font-name in /home/devcodehacker777/.config/gtk-3.0/settings.ini
+(nitrogen:653): Gtk-WARNING **: 17:38:21.996: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:3819): GdkPixbuf-CRITICAL **: 19:37:29.621: gdk_pixbuf_copy_area: assertion 'dest_y >= 0 && dest_y + height <= dest_pixbuf->height' failed
+(nitrogen:653): Gtk-WARNING **: 17:38:21.996: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:3819): Gtk-WARNING **: 19:37:29.633: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:653): Gtk-WARNING **: 17:38:21.996: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:3819): Gtk-WARNING **: 19:37:29.636: Unable to locate theme engine in module_path: "murrine",
+(nitrogen:653): GdkPixbuf-CRITICAL **: 17:38:22.255: gdk_pixbuf_copy_area: assertion 'dest_y >= 0 && dest_y + height <= dest_pixbuf->height' failed
 
-(nitrogen:3819): Gtk-WARNING **: 19:37:29.636: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:653): Gtk-WARNING **: 17:38:22.276: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:3819): GdkPixbuf-CRITICAL **: 19:37:29.767: gdk_pixbuf_copy_area: assertion 'dest_y >= 0 && dest_y + height <= dest_pixbuf->height' failed
+(nitrogen:653): Gtk-WARNING **: 17:38:22.279: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:3819): Gtk-WARNING **: 19:37:29.775: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:653): Gtk-WARNING **: 17:38:22.279: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:3819): Gtk-WARNING **: 19:37:29.778: Unable to locate theme engine in module_path: "murrine",
+(nitrogen:653): Gtk-WARNING **: 17:38:22.280: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:3819): Gtk-WARNING **: 19:37:29.778: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:653): Gtk-WARNING **: 17:38:22.280: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:4026): Gtk-WARNING **: 19:37:37.943: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:653): Gtk-WARNING **: 17:38:22.280: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:4026): Gtk-WARNING **: 19:37:37.946: Unable to locate theme engine in module_path: "murrine",
+(udiskie:656): Gtk-WARNING **: 17:38:22.294: Unknown key ; gtk-font-name in /home/devcodehacker777/.config/gtk-3.0/settings.ini
 
-(nitrogen:4026): Gtk-WARNING **: 19:37:37.947: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:653): GdkPixbuf-CRITICAL **: 17:38:22.424: gdk_pixbuf_copy_area: assertion 'dest_y >= 0 && dest_y + height <= dest_pixbuf->height' failed
 
-(nitrogen:4026): GdkPixbuf-CRITICAL **: 19:37:38.108: gdk_pixbuf_copy_area: assertion 'dest_y >= 0 && dest_y + height <= dest_pixbuf->height' failed
+(nitrogen:653): Gtk-WARNING **: 17:38:22.436: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:4026): Gtk-WARNING **: 19:37:38.202: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:653): Gtk-WARNING **: 17:38:22.441: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:4026): Gtk-WARNING **: 19:37:38.205: Unable to locate theme engine in module_path: "murrine",
+(nitrogen:653): Gtk-WARNING **: 17:38:22.442: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:4026): Gtk-WARNING **: 19:37:38.206: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:653): Gtk-WARNING **: 17:38:22.443: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:4038): Gtk-WARNING **: 19:37:38.206: Unable to locate theme engine in module_path: "adwaita",
-Could not find Xinerama screen number 1
+(nitrogen:653): Gtk-WARNING **: 17:38:22.443: Unable to locate theme engine in module_path: "murrine",
 
-(nitrogen:4038): Gtk-WARNING **: 19:37:38.218: Unable to locate theme engine in module_path: "murrine",
-
-(nitrogen:4038): Gtk-WARNING **: 19:37:38.219: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4038): GdkPixbuf-CRITICAL **: 19:37:38.592: gdk_pixbuf_copy_area: assertion 'dest_y >= 0 && dest_y + height <= dest_pixbuf->height' failed
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/libqtile/ipc.py", line 142, in async_send
-    reader, writer = await asyncio.wait_for(
-  File "/usr/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
-    return fut.result()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 111, in open_unix_connection
-    transport, _ = await loop.create_unix_connection(
-  File "/usr/lib/python3.9/asyncio/unix_events.py", line 244, in create_unix_connection
-    await self.sock_connect(sock, path)
-  File "/usr/lib/python3.9/asyncio/selector_events.py", line 502, in sock_connect
-    return await fut
-  File "/usr/lib/python3.9/asyncio/selector_events.py", line 507, in _sock_connect
-    sock.connect(address)
-ConnectionRefusedError: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/bin/qtile", line 33, in <module>
-    sys.exit(load_entry_point('qtile==0.17.0', 'console_scripts', 'qtile')())
-  File "/usr/lib/python3.9/site-packages/libqtile/scripts/main.py", line 59, in main
-    options.func(options)
-  File "/usr/lib/python3.9/site-packages/libqtile/scripts/cmd_obj.py", line 182, in cmd_obj
-    ret = run_function(obj, args.function, args.args)
-  File "/usr/lib/python3.9/site-packages/libqtile/scripts/cmd_obj.py", line 141, in run_function
-    func = getattr(client, funcname)
-  File "/usr/lib/python3.9/site-packages/libqtile/command/client.py", line 211, in __getattr__
-    if not self._command.has_command(self._current_node, name):
-  File "/usr/lib/python3.9/site-packages/libqtile/command/interface.py", line 258, in has_command
-    commands = self.execute(cmd_call, (), {})
-  File "/usr/lib/python3.9/site-packages/libqtile/command/interface.py", line 230, in execute
-    status, result = self._client.send((
-  File "/usr/lib/python3.9/site-packages/libqtile/ipc.py", line 133, in send
-    return asyncio.run(self.async_send(msg))
-  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
-    return loop.run_until_complete(main)
-  File "/usr/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
-    return future.result()
-  File "/usr/lib/python3.9/site-packages/libqtile/ipc.py", line 146, in async_send
-    raise IPCError("Could not open {}".format(self.socket_path))
-libqtile.ipc.IPCError: Could not open /home/devcodehacker777/.cache/qtile/qtilesocket.:0.0
-
-(nitrogen:4038): Gtk-WARNING **: 19:37:38.616: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4038): Gtk-WARNING **: 19:37:38.625: Unable to locate theme engine in module_path: "murrine",
-
-(nitrogen:4038): Gtk-WARNING **: 19:37:38.626: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4038): GdkPixbuf-CRITICAL **: 19:37:38.760: gdk_pixbuf_copy_area: assertion 'dest_y >= 0 && dest_y + height <= dest_pixbuf->height' failed
-
-(nitrogen:4038): Gtk-WARNING **: 19:37:38.768: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4038): Gtk-WARNING **: 19:37:38.771: Unable to locate theme engine in module_path: "murrine",
-
-(nitrogen:4038): Gtk-WARNING **: 19:37:38.772: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4188): Gtk-WARNING **: 19:37:41.963: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4188): Gtk-WARNING **: 19:37:41.966: Unable to locate theme engine in module_path: "murrine",
-
-(nitrogen:4188): Gtk-WARNING **: 19:37:41.967: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4188): GdkPixbuf-CRITICAL **: 19:37:42.084: gdk_pixbuf_copy_area: assertion 'dest_y >= 0 && dest_y + height <= dest_pixbuf->height' failed
-
-(nitrogen:4188): Gtk-WARNING **: 19:37:42.091: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4188): Gtk-WARNING **: 19:37:42.093: Unable to locate theme engine in module_path: "murrine",
-
-(nitrogen:4188): Gtk-WARNING **: 19:37:42.094: Unable to locate theme engine in module_path: "adwaita",
-Could not find Xinerama screen number 1
-
-(nitrogen:4319): Gtk-WARNING **: 19:37:47.268: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4319): Gtk-WARNING **: 19:37:47.272: Unable to locate theme engine in module_path: "murrine",
-
-(nitrogen:4319): Gtk-WARNING **: 19:37:47.272: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4319): GdkPixbuf-CRITICAL **: 19:37:47.431: gdk_pixbuf_copy_area: assertion 'dest_y >= 0 && dest_y + height <= dest_pixbuf->height' failed
-
-(nitrogen:4319): Gtk-WARNING **: 19:37:47.443: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4319): Gtk-WARNING **: 19:37:47.448: Unable to locate theme engine in module_path: "murrine",
-
-(nitrogen:4319): Gtk-WARNING **: 19:37:47.448: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4319): GdkPixbuf-CRITICAL **: 19:37:47.639: gdk_pixbuf_copy_area: assertion 'dest_y >= 0 && dest_y + height <= dest_pixbuf->height' failed
-
-(nitrogen:4319): Gtk-WARNING **: 19:37:47.653: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:4319): Gtk-WARNING **: 19:37:47.659: Unable to locate theme engine in module_path: "murrine",
-
-(nitrogen:4319): Gtk-WARNING **: 19:37:47.660: Unable to locate theme engine in module_path: "adwaita",
-[ 20/07/21 19:48:57.151 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.151 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.151 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.185 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.185 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.185 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.199 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.199 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.199 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.217 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.217 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.217 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.234 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.234 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.234 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.250 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.250 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.250 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.267 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.267 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.267 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.284 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.284 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.284 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.300 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.300 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.300 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.317 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.317 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.317 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.334 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.334 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.334 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.350 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.350 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.350 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.367 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.367 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.367 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.383 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.383 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.383 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.400 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.400 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.400 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.416 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.417 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.417 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.433 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.433 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.434 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.450 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.450 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.450 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.466 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.467 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.467 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.483 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.483 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.483 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:48:57.500 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00a1e.
-[ 20/07/21 19:48:57.500 paint_one ERROR ] Failed to bind texture for window 0x01000001.
-[ 20/07/21 19:48:57.500 paint_one ERROR ] Window 0x01000001 is missing painting data.
-[ 20/07/21 19:51:44.485 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.485 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.485 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.496 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.496 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.496 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.511 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.511 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.511 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.527 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.527 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.527 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.544 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.544 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.544 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.567 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.567 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.567 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.577 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.577 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.577 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.594 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.594 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.594 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.611 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.611 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.611 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.627 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.627 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.627 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.644 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.644 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.644 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.661 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.661 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.661 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.680 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.680 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.680 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.694 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.694 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.694 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.711 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.711 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.711 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.729 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.729 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.729 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.749 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.749 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.749 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.761 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.761 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.761 paint_one ERROR ] Window 0x01000026 is missing painting data.
-[ 20/07/21 19:51:44.778 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00289.
-[ 20/07/21 19:51:44.778 paint_one ERROR ] Failed to bind texture for window 0x01000026.
-[ 20/07/21 19:51:44.778 paint_one ERROR ] Window 0x01000026 is missing painting data.
+(nitrogen:653): Gtk-WARNING **: 17:38:22.443: Unable to locate theme engine in module_path: "murrine",
+Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
